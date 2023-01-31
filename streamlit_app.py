@@ -1,5 +1,8 @@
 import streamlit as st
 from transformers import AutoModelWithLMHead, AutoTokenizer
+import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr.shape)
 
 tokenizer = AutoTokenizer.from_pretrained('gpt2')
 model = AutoModelWithLMHead.from_pretrained('gpt2')
