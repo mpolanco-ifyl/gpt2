@@ -1,3 +1,7 @@
 streamlit
 transformers
-pytorch
+requests
+tqdm
+torch
+pandas
+
